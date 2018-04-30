@@ -1,0 +1,183 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  }
+
+  h3 {
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: bold;
+
+  }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  top: 0px;
+  opacity: 1;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav a {
+  text-decoration: underline;
+  padding: 5px;
+  margin-right: 15px;
+  display: inline-flex;
+  }
+
+#mission {
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Media/missionbackground.jpg');
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+    top: 60px;
+    position: relative;
+    display: flex;
+}
+
+ .statement {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  z-index: 2;
+  opacity: 1;
+  }
+
+.statement h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.statement h4 {
+  margin-top: 0px;
+}
+
+
+.tom {
+  width: 100%;
+  top:120px;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+
+.types {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  text-align: center;
+}
+
+.types h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.types img {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+#locations {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 250px;
+  width: 1200px;
+  height: 500px;
+  background-image: url('../Media/locationsbackground.jpg');
+}
+
+#locations h2 {
+  background-color: transparent;
+  margin-top: 60px;
+}
+
+.locations {
+  opacity: 1;
+  align-self: center;
+  text-align: center;
+  background-color: transparent;
+  display: flex;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+  .locations p {
+    margin: 40px 0px;
+  }
+
+  .downtown {
+  width: 300px;
+  opacity: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.eastbay {
+  width: 300px;
+  opacity: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.oak {
+  width: 300px;
+  opacity: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+footer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 200px;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  }
+footer h5 {
+    margin-bottom: 0px;
+  }
+footer h2 {
+  margin-bottom: 10px;
+}
+
+.end {
+  position: relative;
+  top: 200px;
+  margin-left: 20px;
+  text-align: left;
+}
